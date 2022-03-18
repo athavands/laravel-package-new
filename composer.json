@@ -1,0 +1,22 @@
+{
+    "name": "athavands/contact",
+    "description": "athavands",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Athavands\\Contact\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "athavands",
+        "email": "athavands4@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Athavands\\Contact\\": "src/"
+        }
+    }
+}
