@@ -14,9 +14,12 @@
     }],
     "minimum-stability": "dev",
     "require": {},
-    "autoload": {
-        "psr-4": {
-            "Athavands\\Contact\\": "src/"
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Athavands\\Contact\\ContactServiceProvider"
+            ]
         }
     }
 }

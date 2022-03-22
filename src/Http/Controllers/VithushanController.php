@@ -8,11 +8,10 @@ use Athavands\Contact\Models\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
-class ContactController extends Controller
+class VithushanController extends Controller
 {
     public function index(){
-        // vithushan
-        return view('contact::contact');
+        return 'AthavanDS';
     }
 
     public function send(Request $request){
